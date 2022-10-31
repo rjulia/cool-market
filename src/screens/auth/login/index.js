@@ -30,8 +30,9 @@ export default function Login() {
                       <img
                         alt="..."
                         className="w-5 mr-1"
-                        src={require('../../../assets/img/github.svg').default}
+                        src={require('../../../assets/icons/github.svg').default}
                       />
+
                       Github
                     </button>
                     <button
@@ -41,7 +42,7 @@ export default function Login() {
                       <img
                         alt="..."
                         className="w-5 mr-1"
-                        src={require('../../../assets/img/google.svg').default}
+                        src={require('../../../assets/icons/google.svg').default}
                       />
                       Google
                     </button>

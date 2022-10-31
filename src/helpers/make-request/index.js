@@ -29,8 +29,6 @@ function makeRequest({
     // responding with the data as "data"
     .then((response) => ({
       data: response.data,
-      total_items: response.headers['x-wp-total'],
-      total_pages: response.headers['x-wp-totalpages'],
     }))
 }
 
